@@ -1,20 +1,38 @@
-.container {
-text-align: center;  
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 header {
-    text-align: center;
-    font-size: 300%;
-    background-color: blue;
-    color: white;
-    margin: 0%;
-    padding: 0%;
-    font-style: unset;
+  text-align: center;
+  font-size: 300%;
+  background-color: blue;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  font-style: unset;
 }
+
 h1 {
-    text-align: center;
-    font-size: 300%;
-    margin: 0%;
-    padding: 0%;
-    font-style: unset;
+  text-align: center;
+  font-size: 300%;
+  margin: 0%;
+  padding: 0%;
+  font-style: unset;
+}
+
+h3 {
+  border: 1px solid green;
+}
+
+.indicator {
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 5px;
+  padding: 2px;
+}
+
+.history-btn {
+  border: 1px solid;
+  padding: 5px;
+  cursor: pointer;
 }
